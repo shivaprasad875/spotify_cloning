@@ -1,0 +1,203 @@
+#section1{
+    /* border: 2px solid red; */
+    height: 94vh;
+    background-image:url(./images/bubbles-dktp.svg) 
+    ,linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+#section1 span svg{
+    width: 286px;
+    height: 573px;
+    position: absolute;
+    left: 280px;
+    top: 180px;
+}
+#section1 img{
+    width: 267px;
+    height: 445px;
+    position:absolute;
+    top: 230px;
+    left: 290px;
+}
+#section1 div h1{
+    /* color: blue; */
+    position: absolute;
+    left: 580px;
+    top: 310px;
+   font-size: 58px;
+   color: white;
+   letter-spacing: 2.0px;
+}
+#section1 div button{
+    position: absolute;
+    left: 47%;
+    top: 80vh;
+    font-size:30px ;
+    font-weight: 550px;
+    cursor: pointer;
+    border-radius: 2.5em;
+    padding: 15px 25px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+#section2{
+    /* border: 3px solid red; */
+    height: 600px;
+}
+#section2 div{
+    /* border: 2px solid; */
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    top: 900px;
+    left: 50px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    justify-content: space-around;
+}
+#tittle{
+    color: black;
+    position: absolute;
+    left:500px ;
+    top:800px ;
+    font-size: 40px;
+}
+#section2 div ul{
+    list-style: none;
+    /* position: absolute; */
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.word{
+    color: rgba(2, 2, 3, 0.776);
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#section3 {
+    /* border: 2px solid ; */
+    height: 600px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 198));
+
+}
+#section3 div h1{
+    color: white;
+    position: absolute;
+    left: 450px;
+    top: 1650px;
+    text-align: center;
+    font-size: 40px;
+}
+#section5{
+    border: 2px solid;
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/bubbles-dktp.svg),
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));;
+}
+#section5 h1{
+    position: absolute;
+    left: 300px;
+    top: 2650px;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(20, 13, 115);
+}
+#section5 button{
+    position: absolute;
+    left: 500px;
+    top:2800px ;
+    font-size:20px ;
+    font-weight: 550px;
+    border-radius: 2.5em;
+    padding: 15px 20px;
+    border: none;
+   cursor: pointer;
+}
+#section6{
+    border: 2px solid;
+    height: 500px;
+}
+#section6 footer{
+        border: 2px solid black;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: #fff;
+    }
+    footer div{
+        /* border: 2px solid; */
+        width: 80%;
+        height: 420px;
+        margin: auto;
+        margin-top: 80px;
+    }
+    footer div>ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer div ul ul{
+        list-style: none;
+    }
+    footer div ul li svg{
+        height: 2.2em;
+        fill: #fff;
+    }
+    #div2{
+        height: 4vh;
+    }
+    #section4{
+        /* border: 2px solid; */
+        height: 79.1vh;
+    }
+    #sec-div{
+        /* border: 2px solid; */
+        height: inherit;
+        width: 75%;
+        margin: auto;
+    }
+    /* #sec-div {
+        border: 2px solid;
+    } */
+    #div1{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-div div h2{
+        /* border: 2px solid; */
+        font-size: 36px;
+        /* height: 26vh; */
+    }
+    #sec-div div ul{
+        /* border:2px solid red; */
+        height: 120vh;
+    }
+    #sec-div div ul>li{
+        /* border: 2px solid green; */
+        border: 2px snow;
+        list-style: none;
+        height: 97px;
+        padding: 38px 26px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    /* #sec-div div ul>li::marker{
+        list-type: "⋁";
+    } */
+    #sec-div ul li div{
+        border: 2px solid yellow;
+        margin-left: 20px;
+    }
+    #sec-div ul>li:hover{
+        background-color: rgb(252, 249, 244);
+        text-decoration: underline;
+    }
